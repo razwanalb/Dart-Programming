@@ -33,4 +33,44 @@ Lesson 5.10
 
 🎯 Mini Project
   */
+
+/*
+
+Practice (Easy)
+Create an anonymous function that prints:
+Create an annymous function that prints your name.
+Create an anonymous function that prints your age.
+Create an anonymous function that takes two integers and prints their sum.
+Create an anonymous function that takes a name and prints:
+
+Practice (Medium)
+Create an anonymous function to calculate the area of a rectangle.
+Create an anonymous function that returns the largest of two numbers.
+Create an anonymous function that checks whether a number is even or odd.
+Create an arrow anonymous function to calculate the square of a number.
+Create an arrow anonymous function to calculate the cube of a number.
+
+Practice (Advanced)
+Create an anonymous function that returns the average of three numbers.
+Create an anonymous function that calculates a student's grade based on marks.
+Create an anonymous function that calculates the discount amount.
+Create an anonymous function that calculates VAT.
+Create an anonymous function that returns the final bill after discount and VAT. 
+*/
+
+hello();
+myName();
+print(myAge(20));
+
 }
+var hello = (){
+  print("Welcome to Dart");
+};
+
+var myName = (){
+  print("Razwan Ahammad");
+};
+
+var myAge = (int age){
+  return age;
+};
