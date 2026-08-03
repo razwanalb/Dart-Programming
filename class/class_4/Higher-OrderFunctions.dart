@@ -61,6 +61,7 @@ Create an anonymous function that returns the final bill after discount and VAT.
 hello();
 myName();
 print(myAge(20));
+addTownumber(10,20);
 
 }
 var hello = (){
@@ -74,3 +75,5 @@ var myName = (){
 var myAge = (int age){
   return age;
 };
+
+var addTownumber =(int a, int b) => print(" $a + $b = ${a + b}");
