@@ -63,8 +63,14 @@ myName();
 print(myAge(20));
 addTownumber(10,20);
 addThreeNumber(10,50,40);
+rectangle(10,5);
+print(largestNumber(33,80));
+evenOdd(21);
+Square(10);
+Cube(9);
 
 }
+// Practice (Easy)
 var hello = (){
   print("Welcome to Dart");
 };
@@ -80,3 +86,10 @@ var myAge = (int age){
 var addTownumber =(int a, int b) => print(" $a + $b = ${a + b}");
 
 var addThreeNumber =(int a, int b,int c) => print(" $a + $b + $c = ${a + b +c}");
+
+// Practice (Medium)
+var rectangle = (int length, int height) => print("Area = ${length*height}");
+var largestNumber = (int a, int b) => a>b? a:b;
+var evenOdd =(int a) => a % 2 == 0? print("Even"):print("Odd");
+var Square = (int a) => print("Square of $a = ${a*a}");
+var Cube = (int a) => print("Square of $a = ${a*a*a}");
