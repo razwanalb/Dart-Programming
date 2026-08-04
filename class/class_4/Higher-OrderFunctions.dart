@@ -66,8 +66,8 @@ addThreeNumber(10,50,40);
 rectangle(10,5);
 print(largestNumber(33,80));
 evenOdd(21);
-Square(10);
-Cube(9);
+square(10);
+cube(9);
 
 }
 // Practice (Easy)
@@ -91,5 +91,5 @@ var addThreeNumber =(int a, int b,int c) => print(" $a + $b + $c = ${a + b +c}")
 var rectangle = (int length, int height) => print("Area = ${length*height}");
 var largestNumber = (int a, int b) => a>b? a:b;
 var evenOdd =(int a) => a % 2 == 0? print("Even"):print("Odd");
-var Square = (int a) => print("Square of $a = ${a*a}");
-var Cube = (int a) => print("Square of $a = ${a*a*a}");
+var square = (int a) => print("Square of $a = ${a*a}");
+var cube = (int a) => print("Cube of $a = ${a*a*a}");
