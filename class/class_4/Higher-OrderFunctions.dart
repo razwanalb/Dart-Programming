@@ -62,6 +62,7 @@ hello();
 myName();
 print(myAge(20));
 addTownumber(10,20);
+addThreeNumber(10,50,40);
 
 }
 var hello = (){
@@ -77,3 +78,5 @@ var myAge = (int age){
 };
 
 var addTownumber =(int a, int b) => print(" $a + $b = ${a + b}");
+
+var addThreeNumber =(int a, int b,int c) => print(" $a + $b + $c = ${a + b +c}");
