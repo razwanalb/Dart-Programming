@@ -1,0 +1,88 @@
+# Practice (Easy)
+
+1. Create a List<int>.
+2. Add one number using add().
+3. Print the list.
+
+4. Create a List<String>.
+5. Add one name using add().
+6. Print the list.
+
+7. Create a List<double>.
+8. Add one CGPA.
+9. Print the list.
+
+---
+
+# Practice (Medium)
+
+1. Create a list of 3 countries.
+2. Add two more countries using add().
+3. Print the list.
+
+4. Create a list of 2 fruits.
+5. Use addAll() to add 3 more fruits.
+6. Print the list.
+
+---
+
+# Practice (Advanced)
+
+1. Create a student list.
+
+```
+["Rahim", "Karim"]
+```
+
+Insert "Razwan" at index 1.
+
+Expected Output:
+
+```
+[Rahim, Razwan, Karim]
+```
+
+---
+
+2. Create a product list.
+
+```
+["Keyboard", "Mouse"]
+```
+
+Use insertAll() to insert:
+
+```
+Monitor
+Speaker
+```
+
+at index 1.
+
+Expected Output:
+
+```
+[Keyboard, Monitor, Speaker, Mouse]
+```
+
+---
+
+# Mini Challenge
+
+Without looking at the notes, create this output:
+
+```
+[10, 20, 25, 30, 40, 50]
+```
+
+Rules:
+
+- Start with
+
+```
+[10, 20, 30]
+```
+
+- Use **add()**
+- Use **insert()**
+- Do not create another List.

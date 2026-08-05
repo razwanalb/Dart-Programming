@@ -1,0 +1,29 @@
+List Methods
+
+### Adding
+- add()
+- addAll()
+- insert()
+- insertAll()
+
+### Removing
+- remove()
+- removeAt()
+- removeLast()
+- removeRange()
+- clear()
+
+### Searching
+- contains()
+- indexOf()
+
+### Utilities
+- sort()
+- reversed() 
+  */
+
+
+- add()          → Add one item
+- addAll()       → Add multiple items
+- insert()       → Insert one item at a specific index
+- insertAll()    → Insert multiple items at a specific index
