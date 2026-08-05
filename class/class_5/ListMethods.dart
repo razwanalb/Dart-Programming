@@ -96,7 +96,29 @@ List <String> productList = ['Keyboard','Mouse'];
 productList.insertAll(1, ['Monitor','Speaker','Printer']);
 print(productList);
 
+/*
+# Mini Challenge
 
+Without looking at the notes, create this output:
+
+```
+[10, 20, 25, 30, 40, 50]
+```
+Rules:
+- Start with
+```
+[10, 20, 30]
+```
+- Use **add()**
+- Use **insert()**
+- Do not create another List.
+*/
+
+List <int> numberList = [10,20,30];
+numberList.add(40);
+numberList.add(50); // if using addAll then not need write 2 line. 
+numberList.insert(2, 25);
+print(numberList);
 
 
 }
