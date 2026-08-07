@@ -1,3 +1,6 @@
+import '../class_3/named_Optional.dart';
+import '../class_4/Higher-OrderFunctions.dart';
+
 void main(){
   
   /*
@@ -112,5 +115,75 @@ List <String> country = ['Japan','Nepal','India','Bangladesh'];
 country.sort();
 print(country);
 
+List <int> num = [10,40,70,20,50,30,100];
+num.sort();
+print(num);
+print(num.reversed);
+print(num.indexOf(70)); 
+
+
+/*
+## Practice (Advanced)
+
+### 1. Student List
+
+```dart
+[
+"Rahim",
+"Rahim",
+"Razwan",
+"Babu"
+]
+```
+
+Tasks
+
+- Check whether `"Razwan"` exists.
+- Print its index.
+
+---
+
+### 2. Number List
+
+```dart
+[
+90,
+70,
+50,
+30,
+10
+]
+```
+
+Tasks
+
+- Sort the list.
+- Reverse it.
+- Print both results.
+
+---
+
+*/
+
+List <String> StudentList = ['Rahim', 'Rahman','Razwan','Life','Babu'];
+print(StudentList.indexOf('Razwan'));
+List <int> lastList = [90,70,50,30,10];
+lastList.sort();
+print(lastList);
+print(lastList.reversed);
+
+print("Mini Challange");
+ List <int>miniList = [45,10,90,25,60];
+ miniList.sort();
+ print(miniList);
+ print(miniList.contains(25));
+ print(miniList.indexOf(60));
+ print(miniList.reversed);
+
+// - Sort the list.
+// - Print the sorted list.
+// - Check if `25` exists.
+// - Print the index of `60`.
+// - Print the list in reverse order.
 
 }
