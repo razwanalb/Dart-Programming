@@ -179,6 +179,7 @@ print("Mini Challange");
  print(miniList.contains(25));
  print(miniList.indexOf(60));
  print(miniList.reversed);
+ print(num.reversed.toList());
 
 // - Sort the list.
 // - Print the sorted list.
