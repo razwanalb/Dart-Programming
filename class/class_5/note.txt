@@ -22,8 +22,24 @@ List Methods
 - reversed() 
   */
 
-
+# List Methods
 - add()          → Add one item
 - addAll()       → Add multiple items
 - insert()       → Insert one item at a specific index
 - insertAll()    → Insert multiple items at a specific index
+
+# Removing Methods
+- remove()      → Remove an item by value
+- removeAt()    → Remove an item by index
+- removeLast()  → Remove the last item
+- removeRange() → Remove multiple items
+- clear()       → Remove all items
+
+
+# Searching
+- contains()  -> Check whether a value exists 
+- indexOf()   -> Find the index of a value 
+
+# Utilities
+- sort()      -> Sort the list in ascending order 
+- reversed    -> Reverse the list 

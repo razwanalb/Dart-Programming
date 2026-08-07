@@ -103,6 +103,8 @@ Rules:
 
 ---
 
+================================================
+================================================
 ## Practice (Easy)
 
 ### 1. Remove by Value
@@ -306,3 +308,193 @@ After completing this practice, you should be able to:
 - Remove the last item.
 - Remove multiple items using a range.
 - Clear an entire list.
+
+
+
+
+
+================================================
+================================================
+# Practice (Easy)
+
+### 1. contains()
+
+Create:
+
+```dart
+[
+10,
+20,
+30,
+40
+]
+```
+
+- Check if `20` exists.
+- Check if `100` exists.
+
+---
+
+### 2. indexOf()
+
+Create:
+
+```dart
+[
+"Apple",
+"Banana",
+"Orange"
+]
+```
+
+- Find the index of `"Banana"`.
+- Find the index of `"Mango"`.
+
+---
+
+### 3. sort()
+
+Create:
+
+```dart
+[
+40,
+10,
+30,
+20
+]
+```
+
+- Sort the list.
+- Print it.
+
+---
+
+## Practice (Medium)
+
+### 1.
+
+Create
+
+```dart
+[
+"Japan",
+"Bangladesh",
+"Nepal",
+"India"
+]
+```
+
+- Sort the list.
+
+---
+
+### 2.
+
+Create
+
+```dart
+[
+100,
+80,
+60,
+40,
+20
+]
+```
+
+- Reverse the list.
+- Print it as a List.
+
+---
+
+### 3.
+
+Create
+
+```dart
+[
+10,
+20,
+30,
+40,
+50
+]
+```
+
+- Check whether `30` exists.
+- Print its index.
+
+---
+
+## Practice (Advanced)
+
+### 1. Student List
+
+```dart
+[
+"Rahim",
+"Karim",
+"Razwan",
+"Babu"
+]
+```
+
+Tasks
+
+- Check whether `"Razwan"` exists.
+- Print its index.
+
+---
+
+### 2. Number List
+
+```dart
+[
+90,
+70,
+50,
+30,
+10
+]
+```
+
+Tasks
+
+- Sort the list.
+- Reverse it.
+- Print both results.
+
+---
+
+# Mini Challenge
+
+Start with
+
+```dart
+[
+45,
+10,
+90,
+25,
+60
+]
+```
+
+Requirements
+
+- Sort the list.
+- Print the sorted list.
+- Check if `25` exists.
+- Print the index of `60`.
+- Print the list in reverse order.
+
+Expected skills:
+
+- sort()
+- contains()
+- indexOf()
+- reversed
+
+================================================
+================================================
