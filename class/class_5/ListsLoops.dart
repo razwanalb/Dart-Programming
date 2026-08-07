@@ -55,4 +55,54 @@ for(int i = 0; i < name.length; i++){
 }
 
 
+// 2. Print Index and Value
+print("Print Index and Value");
+List <int> indexList = [1,2,3,4,5,6,7,8,9,10];
+for(int i = 0; i < indexList.length; i++){
+  print("$i : ${indexList[i]}");
+}
+
+print("String List");
+List <String> nameIndex = ["Razwan", "Life","Babu", "SR", "ahammad"];
+for(int i = 0; i < nameIndex.length; i++){
+  print("$i: ${nameIndex[i]}");
+}
+
+// Sum All Numbers
+print("Print Sum all numbers.");
+
+List <int> sumList = [1,2,3,4,5,6,7,8,9,10];
+int sum = 0;
+for(int i = 0; i < sumList.length; i++){
+  sum += sumList[i];
+} double average = sum/sumList.length;
+print(average);
+
+// Largest number
+List <int> numbers = [1,2,3,4,5,6,7,8,9,10,11];
+int largest = numbers[0];
+for(int i = 0; i < numbers.length; i++){
+    
+    if(numbers[i]  > largest){
+      largest = numbers[i];
+    }
+
+}
+print(largest);
+
+
+// smallest number
+List <int> snumbers = [1,2,3,4,5,6,7,8,9,10,11];
+int smallest  = snumbers[0];
+for(int i = 0; i < snumbers.length; i++){
+    
+    if(snumbers[i]  < smallest){
+      smallest  = snumbers[i];
+    }
+
+}
+print(smallest);
+
+
+
 }
