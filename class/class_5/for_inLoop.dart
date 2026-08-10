@@ -3,6 +3,7 @@ void main(){
   // The for-in loop is used to read/traverse each value of a collection one by one.
   // for-in = Take every item from the List, one by one.
 
+/*
 List<String> names = [
   "Razwan",
   "Life",
@@ -93,6 +94,97 @@ for(int mymarks in marks){
 double average = mysum/marks.length;
 print(average);
 
+/*
+6. Count Items
+List<String> fruits = [
+  "Apple",
+  "Banana",
+  "Mango",
+  "Orange",
+  "Jackfruit"
+];
+Use for-in to count how many fruits are in the List.
+ */
+List<String> fruits = [
+  "Apple",
+  "Banana",
+  "Mango",
+  "Orange",
+  "Jackfruit"
+];
+int count = 0;
+for(String fruit in fruits){
+  count++;
+}print(count);
+
+/*
+Practice 3 — Slightly Advanced
+7. Print Even Numbers
+List<int> numbers = [
+  10, 15, 22, 31, 40, 55, 60
+];
+Using only for-in, print the even numbers.
+
+ */
+
+List<int> numberlist = [10, 15, 22, 31, 40, 55, 60];
+for(int even in numberlist){
+  if(even %2 == 0){
+    print(even);
+  }
+}
+
+/*
+Calculate Total Price
+List<double> prices = [
+  100.0,
+  250.0,
+  75.0,
+  500.0
+];
+Use for-in to calculate the total.
+ */
+
+List<double> prices = [
+  100.0,
+  250.0,
+  75.0,
+  500.0
+];
+double totalPrice = 0;
+for(double total in prices){
+  totalPrice += total;
+}
+print(totalPrice);
+*/
+
+// 🔥 Mini Challenge
+// List<int> numbers = [15, 20, 35, 40, 50, 65];
+/*
+Rules
+✅ Use for-in
+✅ Use if when needed
+❌ Don't use a normal for loop
+❌ Don't use .sum or other shortcuts
+
+print:
+Even numbers:
+Sum:
+Count:
+ */
+
+List<int> numberList = [15, 20, 35, 40, 50, 65];
+int sum = 0, count = 0;
+for(int num in numberList){
+  if(num % 2 == 0){
+    print(num);
+
+      sum += num;
+  count++;
+  }
+
+}print(sum);
+print(count);
 
 
 
