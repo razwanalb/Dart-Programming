@@ -42,7 +42,7 @@ for(dynamic myProduct in product.entries){
 
 }
   print(product.containsKey("price"));
-  print(product.containsKey("Mouse"));
+  print(product.containsValue("Mouse"));
   product.remove("brand");
   print(product.length);
   print(product.keys);
