@@ -23,4 +23,16 @@ for (var entry in product.entries) {
   print("${entry.key} : ${entry.value}");
 }
 
+
+Map<String, dynamic> student = {
+  "name": "Razwan",
+  "age": 21,
+  "department": "CST",
+  "cgpa": 4.50
+};
+
+for (var entry in student.entries) {
+  print("${entry.key} : ${entry.value}");
+}
+
 }
