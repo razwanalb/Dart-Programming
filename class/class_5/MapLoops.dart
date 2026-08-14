@@ -15,4 +15,8 @@ for (var key in product.keys) {
   print(key);
 }
 
+for (var entry in product.entries) {
+  print(entry);
+}
+
 }
