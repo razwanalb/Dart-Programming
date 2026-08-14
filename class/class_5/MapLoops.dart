@@ -19,4 +19,8 @@ for (var entry in product.entries) {
   print(entry);
 }
 
+for (var entry in product.entries) {
+  print("${entry.key} : ${entry.value}");
+}
+
 }
